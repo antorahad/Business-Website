@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import service from '../../assets/service.jpg';
 
 const HomeService = () => {
@@ -16,7 +17,9 @@ const HomeService = () => {
                             <h2 className="card-title">Study Abroad Solutions</h2>
                             <p className='line-clamp-2 text-sm'>We are one of just a handful of student counseling firms in Bangladesh that specialize in helping</p>
                             <div className="card-actions justify-start">
-                                <button className="btn bg-indigo-500 hover:bg-indigo-400 border-none hover:border-none outline-none hover:outline-none px-7 rounded-md text-white">Learn More</button>
+                                <Link to={'/services'}>
+                                    <button className="btn bg-indigo-500 hover:bg-indigo-400 border-none hover:border-none outline-none hover:outline-none px-7 rounded-md text-white">Learn More</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -30,7 +33,9 @@ const HomeService = () => {
                             <h2 className="card-title">Study Abroad Solutions</h2>
                             <p className='line-clamp-2 text-sm'>We are one of just a handful of student counseling firms in Bangladesh that specialize in helping</p>
                             <div className="card-actions justify-start">
-                                <button className="btn bg-indigo-500 hover:bg-indigo-400 border-none hover:border-none outline-none hover:outline-none px-7 rounded-md text-white">Learn More</button>
+                                <Link to={'/services'}>
+                                    <button className="btn bg-indigo-500 hover:bg-indigo-400 border-none hover:border-none outline-none hover:outline-none px-7 rounded-md text-white">Learn More</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -44,7 +49,9 @@ const HomeService = () => {
                             <h2 className="card-title">Study Abroad Solutions</h2>
                             <p className='line-clamp-2 text-sm'>We are one of just a handful of student counseling firms in Bangladesh that specialize in helping</p>
                             <div className="card-actions justify-start">
-                                <button className="btn bg-indigo-500 hover:bg-indigo-400 border-none hover:border-none outline-none hover:outline-none px-7 rounded-md text-white">Learn More</button>
+                                <Link to={'/services'}>
+                                    <button className="btn bg-indigo-500 hover:bg-indigo-400 border-none hover:border-none outline-none hover:outline-none px-7 rounded-md text-white">Learn More</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -58,7 +65,9 @@ const HomeService = () => {
                             <h2 className="card-title">Study Abroad Solutions</h2>
                             <p className='line-clamp-2 text-sm'>We are one of just a handful of student counseling firms in Bangladesh that specialize in helping</p>
                             <div className="card-actions justify-start">
-                                <button className="btn bg-indigo-500 hover:bg-indigo-400 border-none hover:border-none outline-none hover:outline-none px-7 rounded-md text-white">Learn More</button>
+                                <Link to={'/services'}>
+                                    <button className="btn bg-indigo-500 hover:bg-indigo-400 border-none hover:border-none outline-none hover:outline-none px-7 rounded-md text-white">Learn More</button>
+                                </Link>
                             </div>
                         </div>
                     </div>

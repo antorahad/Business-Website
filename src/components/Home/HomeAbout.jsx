@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ceo from "../../assets/CEO.jpg";
 const HomeAbout = () => {
     return (
@@ -7,7 +8,9 @@ const HomeAbout = () => {
                     <h1 className="text-4xl capitalize max-w-lg leading-relaxed text-center lg:text-start">Welcome to daikonia german edcation center!</h1>
                     <p className="max-w-lg leading-relaxed">In today’s hyper-competitive admissions landscape, standing out from the crowd is more important and more difficult than ever. Different universities are setting various criteria in their admission process which creates a complex environment for students to select right institute of their choice.</p>
                     <div>
-                        <button className="btn bg-indigo-500 hover:bg-indigo-400 border-none hover:border-none outline-none hover:outline-none px-7 rounded-md text-white">View Details</button>
+                        <Link to={'/about'}>
+                            <button className="btn bg-indigo-500 hover:bg-indigo-400 border-none hover:border-none outline-none hover:outline-none px-7 rounded-md text-white">View Details</button>
+                        </Link>
                     </div>
                 </div>
                 <div>

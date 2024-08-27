@@ -2,7 +2,7 @@ import ceo from '../../assets/CEO.jpg';
 
 const HomeMember = () => {
     return (
-        <div className="bg-gray-100 px-5 py-10 flex flex-col items-center">
+        <div className="bg-slate-950 bg-opacity-15 px-5 py-10 flex flex-col items-center">
             <h1 className="text-4xl mb-10">Management Suite</h1>
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                 <div className="relative group w-full h-full">
